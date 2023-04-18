@@ -1,0 +1,29 @@
+.footer-link{
+    margin-top: .5rem;
+    width: 100%;
+    border: 1.2px solid  #912978;
+}
+
+.footer-content:not(#footer-content){
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-content:not(#footer-content) form input[type="text"], .footer-content:not(#footer-content) form input[type="text"]:focus{
+    outline: none;
+    width: 30rem;
+    height: 30px;
+    padding: .2rem;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: .5rem;
+}
+
+input[type="submit"]{
+    border: none;
+    height: 30px;
+    width: 8rem;
+    font-weight: 700;
+    background-color: rgb(17, 103, 250);
+    color: white;
+    border-radius: .5rem;
+}
