@@ -1,24 +1,81 @@
-.forum{
+/*  style global*/
+.forum {
   margin-top: 10px;
   margin: 10px;
-    
+}
+/* navbar style forum */
+.nav-forum {
+  width: 80%;
+  height: 50%;
+  margin: 0px auto;
+  margin-right: 0px;
+  background-color: #531f47;
 }
 
-.nav-forum{
-    width: 1500px;
-    height: 90px;
-    margin: 20px auto;
-    background-color: #531F47;
-}
-.sidebar-forum{
-    width: 30vh;
-    height: 80vh;
-    margin-top: -50px;
-    background-color: #531F47;
+.bar-Reach {
+  width: 500px;
+  height: 50%;
+  padding-top: 30px;
+  margin-right: 0 auto;
+  display: flex;
 }
 
-.main-forum{
-    width: 300px;
-    height: 200px;
-    background-color: aliceblue;
+.input-box input{
+ 
+  width: 60%;
+  height: 30px;
+  text-align: center; 
+}
+
+.btn-reach button{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    margin-right: auto;
+            
+}
+
+/* left style forum */
+.sidebar-forum {
+  width: 20%;
+  height: 90vh;
+  margin-top: -4.8%;
+  background-color: #531f47;
+}
+.links-container h1{
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+/* .link-forum ul{
+    padding: 50px;
+} */
+
+.link-forum .link-newChat{
+    width: 90%;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: #fff;
+    display: flex;
+    background: #342647;
+
+}
+
+.link-forum .link-newChat a{
+    color: #fff;
+}
+
+.link-forum .link-membres .all-chats{
+    padding-top: 30px;
+}
+
+/* center style forum */
+.main-forum {
+  width: 300px;
+  height: 200px;
+  background-color: aliceblue;
 }
