@@ -39,15 +39,42 @@
 .sidebar-forum {
   width: 20%;
   height: 90vh;
-  margin-top: -4.8%;
+  margin-top: -3%;
   background-color: #531f47;
+  box-shadow: 2px 1px #3d3636;
 }
 .links-container h1{
     padding-top: 20px;
     padding-left: 50px;
     color: #fff;
 }
+.link-forum .link-membres{
+   margin: 44px;
+}
 
+.link-forum .link-membres a{
+color: #fff;
+}
+
+.link-forum .link-membres:hover{
+  font-size: 20px;
+  border-bottom: 1px solid #fff;
+  width: 6rem;
+}
+
+.link-forum .all-chats{
+  margin-left: 44px;
+}
+
+.link-forum .all-chats:hover{
+  font-size: 20px;
+  border-bottom: 1px solid #fff;
+  width: 10rem;
+}
+
+.link-forum .all-chats a{
+  color: #fff;
+}
 /* .link-forum ul{
     padding: 50px;
 } */
