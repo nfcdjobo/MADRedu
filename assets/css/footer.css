@@ -1,7 +1,7 @@
 .footer-link{
     margin-top: .5rem;
     width: 100%;
-    border: 1.2px solid  #912978;
+    border-top: 1.2px solid  #912978;
 }
 
 .footer-content:not(#footer-content){
@@ -11,19 +11,26 @@
 
 .footer-content:not(#footer-content) form input[type="text"], .footer-content:not(#footer-content) form input[type="text"]:focus{
     outline: none;
-    width: 30rem;
+    width: 27rem;
     height: 30px;
     padding: .2rem;
     border: 1px solid rgb(178, 178, 178);
-    border-radius: .5rem;
+    border-radius: .5rem 0 0 .5rem;
 }
 
 input[type="submit"]{
     border: none;
     height: 30px;
     width: 8rem;
+    margin-left: -10px;
     font-weight: 700;
-    background-color: rgb(17, 103, 250);
+    background-color: #912978;
     color: white;
-    border-radius: .5rem;
+    border-radius: 0 .5rem .5rem 0;
+}
+
+.footer-link #footer-content{
+    background-color: rgb(145, 41, 120);
+    text-align: center;
+    padding: .5rem;
 }

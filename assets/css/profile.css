@@ -60,7 +60,7 @@ p{
 .modifier{
     border: none;
     outline: none;
-    background-color: #912978;
+    background-color:  rgb(17, 103, 250);
     margin-top: 1.2rem auto;
     padding: .5rem 1.3rem;
     color: white;
@@ -69,10 +69,117 @@ p{
     font-size: 15px;
     text-align: center;
     justify-content: center;
+    cursor: pointer;
 }
+
+.modifier:hover{
+    background-color: #912978;
+}
+
 
 .btn-m{
     text-align: center;
     margin: 1rem;
 }
 
+.modifier-all{
+    padding: 0.5rem;
+}
+
+.modifier-all{
+    width: 50%;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity 500ms;
+    border-radius: 1rem;
+    visibility: hidden;
+
+    /* transform: translate(-50%, -50%); */
+}
+
+
+
+.modifier-all:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+textarea, textarea:focus{
+    width: 100%;
+    border: 1px solid rgb(195, 194, 194);
+    padding: .5rem;
+    outline: none;
+}
+
+fieldset{
+    padding: .2rem .7rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(212, 210, 210);
+    margin: 1rem;
+    font-weight: bold;
+    
+}
+
+legend{
+    color: white;
+    font-size: 15px;
+}
+
+.modifier-all h3{
+    color: white;
+}
+
+.conform{
+    text-align: center;
+}
+
+.conform button{
+    text-align: center;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid blueviolet;
+    font-weight: 700;
+    box-shadow: .1px 0px .5px 1px rgb(171, 171, 171);
+    
+}
+
+.conform #Envoyer-biographie, .conform #Envoyer-centre, .conform #Envoyer-acces{
+    background-color: blueviolet;
+    color: white;
+}
+
+.conform #Envoyer-biographie:hover, .conform #Envoyer-centre:hover, .conform #Envoyer-acces:hover{
+    outline: none;
+    background-color: rgb(56, 74, 193);
+    color: white;
+    font-weight: 700;
+    box-shadow: .1px 0px .5px 1px rgb(255, 255, 255);
+}
+
+.modifier-all h3{
+    text-align: center;
+}
+
+.open{
+    visibility:visible;
+}
+
+.my-fom input, .my-fom input:focus{
+    outline: none;
+    padding: .3rem;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.annuler{
+    font-weight: bold;
+}
+
+.annuler:hover{
+    background-color: rgb(245, 43, 43);
+    color: white;
+}
