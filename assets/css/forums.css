@@ -1,53 +1,56 @@
 /*  style global*/
 .forum {
   margin-top: 10px;
-  margin: 10px;
+  margin-left: 10px;
+  width: 1440px;
 }
 /* navbar style forum */
+
 .nav-forum {
-  width: 84%;
-  height: 70px;
-  margin: 0px auto;
-  margin-right: 0px;
+  width: 90%;
+  height: 12vh;
+  margin: 0 auto;
+  justify-content: center;
+  margin-left: 200px;
+  background-color: #531f47;
+  position: relative;
+
+}
+
+.nav-forum .box-form{
+  margin: 0 auto;
   padding-top: 20px;
   display: flex;
+  justify-content: center;
+
+}
+
+.box-form .input-text{
+  width: 40%;
+  height: 40px;
+  
+}
+
+.box-form .btn-submit{
+  width: 10%;
+  height: 40px;
+  float: right;
+  color: #fff;
   background-color: #531f47;
-}
-
-.box-form{
-  max-width: 700px;
-  width: 70px;
-  margin: 30px auto;
-  position: relative;
-  display: flex;
-  margin-top: -3px;
-}
-
-.box-form input{
-    width: 500px;
-    padding: 15px;
-    
-    border: none;
-    outline: none;
-    border-radius: 3px;
-}
-
-.btn-reach button{
-    position: absolute;
-    width: 80px;
-    height: 40px;
-    margin-right: auto;
-            
+  
 }
 
 /* left style forum */
 .sidebar-forum {
-  width: 16%;
-  height: 90vh;
+  width: 17%;
+  height: 100vh;
   margin-top: -3%;
   background-color: #531f47;
   box-shadow: 2px 1px #0c0c0c;
+  /* position: fixed; */
 }
+
+
 .links-container h1{
     padding-top: 20px;
     padding-left: 50px;
@@ -119,7 +122,60 @@ color: #fff;
 
 /* center style forum */
 .main-forum {
-  width: 300px;
-  height: 200px;
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 200px;
   background-color: aliceblue;
+  position: relative;
+  
+}
+/* box write message */
+.box-msger{
+  width: 90%;
+  height: 10vh;
+  margin: 0 auto;
+  margin-left: 200px;
+  margin-top: -70px;
+  background: #342647;
+  
+}
+
+.box-msger .form-saisi{
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* responsive design */
+@media screen and (max-width: 1499px) {
+  /* style global forum */
+
+  .forum{
+    width: 90%;
+  }
+
+  .nav-forum{
+    margin-right: 80px;
+  }
+
+  .box-form{
+    margin: 0 auto;
+    margin-top: 30px;
+    
+  
+  }
+
+  /* style side left forum*/
+
+  .links-container{
+    font-size: 15px;
+  }
+
+  .link-forum .all-chats:hover{
+    font-size: 16px;
+  }
+
+  .sidebar-forum {
+    margin-top: -84px;
+  }
 }
