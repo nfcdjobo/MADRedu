@@ -5,6 +5,7 @@
 
 <defs>
 
+<<<<<<< HEAD
 <style>.cls-1{fill:#cdccd2;}.cls-2{fill:#ffffff;}.cls-3{opacity:0.79;}.cls-4{fill:url(#linear-gradient);}.cls-5{fill:url(#linear-gradient-2);}.cls-6{fill:url(#linear-gradient-3);}</style>
 
 <linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="305.31" x2="318.59" y1="210.09" y2="196.81">
@@ -20,6 +21,23 @@
 <stop offset="0.86" stop-color="#a6035d"/>
 
 <stop offset="1" stop-color="#9e005d"/>
+=======
+<style>.cls-1{fill:rgb(0, 0, 0);}.cls-2{fill:rgb(145, 41, 120, 1);}.cls-3{opacity:0.79;}.cls-4{fill:url(#linear-gradient);}.cls-5{fill:url(#linear-gradient-2);}.cls-6{fill:url(#linear-gradient-3);}</style>
+
+<linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="305.31" x2="318.59" y1="210.09" y2="196.81">
+
+<stop offset="0" stop-color="black"/>
+
+<stop offset="0.19" stop-color="black"/>
+
+<stop offset="0.44" stop-color="black"/>
+
+<stop offset="0.64" stop-color="black"/>
+
+<stop offset="0.86" stop-color="black"/>
+
+<stop offset="1" stop-color="black"/>
+>>>>>>> 6ac388e44fee24d12d60e5bdb4e36986ea5d11fa
 
 </linearGradient>
 

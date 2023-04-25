@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+}
+
+.content-dossier{
+    width: 20%;
+    font-size: 15px;
+    box-shadow: .1px 0px .5px 1px rgb(171, 171, 171);
+    margin: 3px;
+    padding: .2rem;
+}
+
+.content-fichier{
+    width: 20%;
+    font-size: 15px;
+    box-shadow: .1px 0px .5px 1px rgb(171, 171, 171);
+    margin: 3px;
+    padding: .2rem;
+}
+
+.content-lecture{
+    box-shadow: .1px 0px .5px 1px rgb(171, 171, 171);
+    width: 60%;
+    margin: 3px;
+    padding: .2rem;
+    
+}
+
+embed{
+    width: 100%;
+    height: 500px;
+}
+
+.content-dossier p, .content-fichier p, .content-lecture p{
+    width: 90%;
+    text-align: center;
+    margin: .2rem auto;
+    padding: .3rem;
+}
+
+.content-lecture p{
+    background-color:#912978;
+    color: white;
+     width: 90%;
+    text-align: center;
+    border: 2px solid violet;
+    margin: .2rem auto;
+    padding: .3rem;
+}
+
+.content-dossier input, .content-fichier input, .content-dossier input:focus, .content-fichier input:focus{
+    outline: none;
+    width: 100%;
+    border: 1px solid violet;
+    margin: .5rem auto;
+    padding: .2rem .5rem;
+    border-radius: .4rem;
+}
+
+.content-dossier ul, .content-fichier ul{
+    list-style: none;
+    width: 100%;
+    margin: .1rem auto;
+    padding: .2rem .5rem;
+    border-radius: .4rem;
+
+}
+
+.content-dossier ul li, .content-fichier ul li{
+    width: 100%;
+    margin: .3rem auto;
+    border-radius: .4rem;
+}
+
+.pourcent{
+    width: 100%;
+    margin: .5rem auto;
+    text-align: center;
+}
+
+input[type='range']{
+    width: 95%;
+    margin-top: .7rem;
+}
+
+.container li:hover{
+    color: #ff0000;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.cible{
+    color: #912978;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.myPage button{
+    border: none;
+    color: white;
+    text-align: center;
+    padding: .3rem;
+    background-color: #912978;
+    box-shadow: .1px 0px .5px 1px rgb(171, 171, 171);
+}
