@@ -59,14 +59,33 @@
   }
 
   .m_modal{
-    position: relative;
-    width: 150%;
+    position: absolute;
+    width: 60%;
     /* height: 400px; */
-    max-width: 100%; 
-     height: calc(70vh - 40px);
+    max-width: 90%; 
+     height: calc(40vh - 30px);
     background: rgb(223, 218, 218);
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.06),2px 2px 5px 3px rgba(0,0,0,0.06);
-    display: none;
+    margin-top: 50px;
+    border: 3px solid #531f47;
+    z-index: 1000;
+    /* display: none; */
+  }
+  .m_modal h4{
+    font-size: 15px;
+    margin-top: 10px;
+    margin: 20px;
+  }
+
+  .m_modal .newChatt{
+    width: 100%;
+    height: 50px;
+    background-color:#531f47;
+  }
+
+  .newChatt h5{
+    padding: 20px;
+    color: #fff;
   }
 
 /* menu droit */
