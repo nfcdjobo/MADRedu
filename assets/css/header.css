@@ -4,12 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    
 }
 
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     width: 100%;
     height: auto;
     overflow-x: hidden;
@@ -19,7 +18,7 @@ body header{
     background-color: #912978;
     position: relative;
     width: 100%;
-    height: 70px;
+    height: 4.2rem;
     box-sizing: content-box;
     
 }
@@ -29,29 +28,27 @@ body header{
 }
 
 .ul-link{
-    margin-top: -50px;
+    margin-top: -2.5rem;
     display: flex;
     list-style: none;
     vertical-align: middle;
-    padding-left: 5px;
+    padding-left: .5rem;
     justify-content:flex-end;
 }
 
-.ul-img img{
-    border: 1.5px solid #912978;
-    border-radius: 100%;
-    margin-left: 0px;
-    margin-top: -10px;
+.logo{
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .ul-link .li-link{
-    margin: 5px 1rem;
+    margin: -.4rem .5%;
     padding: .3rem;
 }
 
 li a{
     color: white;
-    font-size: 1.2rem;
+    font-size: 15px;
 }
 
 li.active{
@@ -65,14 +62,14 @@ li a:hover{
 }
 
 .menu-all{
-    border: 1px solid rgb(233, 232, 232, 0.5);
+    border: .12rem solid rgb(233, 232, 232, 0.5);
     box-shadow: .1px 0px .5px 1px rgb(171, 171, 171);
     visibility: visible;
     background-color: white;
     position: absolute;
     width: 12rem;
     margin: .2rem 1rem;
-    top: 55px;
+    top: 4.4rem;
     visibility: hidden;
 }
 
@@ -81,7 +78,6 @@ li a:hover{
 }
 
 .menu-div{
-    
     padding: .2rem 1rem;
 }
 
@@ -93,12 +89,22 @@ li a:hover{
     outline: none;
     color: orange;
     text-decoration : underline rgb(255, 255, 255);
-    
 }
 
 .menu-all hr{
-    
     border: 0.3px solid #912978;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 0.3px solid #912978;
+}
+
+
+@media screen and (max-width: 47rem) {
+    
 }
 
 
