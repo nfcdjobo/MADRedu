@@ -1,7 +1,11 @@
 .footer-link{
     margin-top: .5rem;
     width: 100%;
+<<<<<<< HEAD
+    border: 1.2px solid  #912978;
+=======
     border-top: 1.2px solid  #912978;
+>>>>>>> 6ac388e44fee24d12d60e5bdb4e36986ea5d11fa
 }
 
 .footer-content:not(#footer-content){
@@ -11,17 +15,31 @@
 
 .footer-content:not(#footer-content) form input[type="text"], .footer-content:not(#footer-content) form input[type="text"]:focus{
     outline: none;
+<<<<<<< HEAD
+    width: 30rem;
+    height: 30px;
+    padding: .2rem;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: .5rem;
+=======
     width: 27rem;
     height: 30px;
     padding: .2rem;
     border: 1px solid rgb(178, 178, 178);
     border-radius: .5rem 0 0 .5rem;
+>>>>>>> 6ac388e44fee24d12d60e5bdb4e36986ea5d11fa
 }
 
 input[type="submit"]{
     border: none;
     height: 30px;
     width: 8rem;
+<<<<<<< HEAD
+    font-weight: 700;
+    background-color: rgb(17, 103, 250);
+    color: white;
+    border-radius: .5rem;
+=======
     margin-left: -10px;
     font-weight: 700;
     background-color: #912978;
@@ -33,4 +51,5 @@ input[type="submit"]{
     background-color: rgb(145, 41, 120);
     text-align: center;
     padding: .5rem;
+>>>>>>> 6ac388e44fee24d12d60e5bdb4e36986ea5d11fa
 }
