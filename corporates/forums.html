@@ -14,6 +14,7 @@
     <body>
         <header>
             <nav class="nav-link">
+<<<<<<< HEAD
                 <div class="ul-img"><img src="./../assets/images/users/logo.png" alt="Logo" class="logo" width="50" height="50"></div>
                 <ul class="ul-link">
                     <li class="li-link"><a href="#" class="links">Accueil</a></li>
@@ -24,6 +25,31 @@
                     <li class="li-link"><a href="#" class="links">Connexion</a></li>
                 </ul>
             </nav>
+=======
+            <a href="../index2.html" class="ul-img"><img src="../assets/images/users/logo.png" alt="Logo" class="logo"></a>
+            <ul class="ul-link">
+                <li class="li-link"><a href="../index2.html" id="index" class="links">Accueil</a></li>
+                <li class="li-link"><a href="forums.html" id="forums" class="links">Forums</a></li>
+                <li class="li-link"><a href="bibliotheques.html" id="bibliotheques" class="links">Bibliothèque</a>
+                </li>
+                <li class="li-link"><a href="outils.html" id="outils" class="links">Outils</a></li>
+                <li class="li-link"><a href="Apropos.html" id="Apropos" class="links">A propos</a></li>
+                <li class="li-link" id="menu-all"><a href="#" id="#" class="links"><img class="avatar" src="../assets/images/users/avatar.png" alt="Avatar"></a></li>
+                <div class="menu-all" id="menu-all-1" ref="all-wait">
+                    <a href="profile.html" id="profile" class="link-div">
+                        <div class="menu-div">Profile</div>
+                    </a>
+                    <a href="forums.html" class="link-div">
+                        <div class="menu-div">Notification<code style="color: red;"><sup>+2</sup></code></div>
+                    </a>
+                    <hr>
+                    <a href="connexion.html" id="" class="link-div">
+                        <div class="menu-div">Déconnexion</div>
+                    </a>
+                </div>
+            </ul>
+        </nav>
+>>>>>>> bb252b6329ab5ad3621e3b821e2fd0135fbec2ff
         </header>
         <!-- debut du forum -->
          <div class="body-forum">
@@ -33,22 +59,10 @@
                     <div class="link-contain">
                         <ul>
                             <div class="link-newCht"><li><a href="./newChat.html">Nouvelle discussion <div class="iconWrite"><ion-icon name="create-outline"></ion-icon></div></a></li></div>
-                            <div class="link-memb"><li><a href="#">Membres</a></li></div>
-                            <div class="link-allCht"><li><a href="#">Tous les discusions</a></li></div>
+                            <div class="link-memb"><li><a href="./membres.html">Membres</a></li></div>
+                            <div class="link-allCht"><li><a href="./forums.html">Tous les discusions</a></li></div>
                         </ul>
                     </div>   
-                </div>
-                <div class="m_modal">
-                    <div class="newChatt">
-                        <h3>Nouvelle discussion</h3>
-                    </div>
-                    <h4>Sujet</h4>
-                    <form class="modal-grp">
-                        <input type="text" placeholder="Entrez votre sujet">
-                        <input type="file" name="file" id="">
-                        <button type="submit"></button>
-                        <button type="submit"></button>
-                    </form>
                 </div>
                 <div class="rightSide">
                     <div class="header-forum">
@@ -129,4 +143,5 @@
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
+    <script src="../assets/javascript/header.js"></script>
 </html>

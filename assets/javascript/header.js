@@ -4,3 +4,14 @@ menu_all.addEventListener("click", (e)=>{
     menu_all_1.classList.toggle("trouver");
 });
 
+
+const links = document.querySelectorAll('.links');
+links.forEach(cle=>{
+    const url = location.href;
+    if (url.includes(cle.id)){
+        cle.classList.add('big');
+    }else{
+        cle.classList.remove('big');
+    }
+})
+
