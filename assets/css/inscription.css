@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 3.5rem;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.container_element1{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container_element1 .image{
+    height: 70vh;
+    padding: 17rem 4rem;
+    width: 30rem;
+}
+.container_element1 .image img{
+    height: 30vh;
+    width: 31rem;
+}
+.container_element1 .connexion{
+    height: 70vh;
+    width: 60rem;
+    padding: 7rem;
+    margin: 4rem;
+}
+.connexion h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+.connexion .hr{
+    display: flex;
+    margin: 2rem 0;
+}
+.connexion .hr div{
+    border: 1px solid #000;
+    height: 1px;
+    width: 11rem;
+    position: relative;
+    margin: 2px;
+    top: 0.4rem;
+}
+form .input input{
+    height: 6vh;
+    padding: 1rem;
+    width: 24rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #FFF;
+}
+form .p{
+    width: 24rem;
+    display: flex;
+    justify-content: space-between;
+    height: 2vh;
+    margin: 1rem 0;
+}
+p{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+form button a:hover{
+    color: #912978;
+}
+form button a{
+    color: #FFF;
+}
+form button{
+    height: 5vh;
+    width: 12rem;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem 5rem;
+    background-color: #912978;
+    color: #FFF;
+}
+form button:hover{
+    border: 2px solid #912978;
+    background-color: #FFF;
+    color: #912978;
+}
+.connexion span{
+    padding: 1.1rem 1.2rem;
+    color: #FFF;
+    background-color: #912978;
+    border-radius: 50px;
+    margin: 0.3rem;
+}
+.container_element2{
+    height: 20vh;
+    width: 100%;
+    background-color: #342647;
+    padding: 5rem;
+}
+.container_element2 p{
+    color: #FFF;
+    position: relative;
+}
+.container_element2 div{
+    float: right;
+    height: 5vh;
+    width: 20rem;
+    top: -3vh;
+    position: relative;
+    display: flex;
+}
+.container_element2 div span{
+    padding: 1.6rem 1.2rem;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    color: #FFF;
+    margin: 0.8rem;
+}
+.container_element2 i{
+    position: relative;
+    top: -0.5rem;
+}
