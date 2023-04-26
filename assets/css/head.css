@@ -12,8 +12,8 @@ header{
     padding: 0.3rem;
 }
 header img{
-    height: 8vh;
-    width: 5vw;
+    height: 50px;
+    width: 50px;
     margin: 0.5rem;
 }
 .navbar img{
@@ -75,136 +75,36 @@ a {
     background-color: #912978;
     color: #FFF;
 }
-.accueil{
-    padding: 150px;
+.menu{
     height: 60vh;
-    width: 100%;
-    color: #fff;
-    background-image: linear-gradient(rgba(34, 34, 34, 0.748),rgba(34, 34, 34, 0.748)),
-    url(../images/fond-accueil.png);
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
 }
-.accueil h1{
-    margin: 3rem;
+.menu div{
+    height: 55vh;
+    margin: 2rem;
+    text-align: center;
+}
+.maDiv{
+    width: 40vw;
+}
+.menu .maDiv2{    
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+.maDiv2 p{
+    line-height: 1.4;
+    width: 45vw;
+    font-size: 1.8rem;
+    margin: 1rem;
     font-weight: 100;
 }
-.accueil button{
-    height: 50px;
-    border-radius: 30px;
-    width: 20rem;
-    border: 3px solid #912978;
-    color: #fff;
-    margin: 20px;
-    background-color: #ffffff00;
-}
-.accueil button:hover{
-    background-color: #000;
-}
-.menu{
-    height: 419vh;
-}
-.menuPadding{
-    padding: 2.2rem;
-}
-.h1{
-    font-size: 2.5rem;
-    text-align: center;
-    color: #912978;
-    margin: 1.9rem;
-}
-.menu .im img{
-    height: 60vh;
-    width: 60rem;
-    margin: 0.8rem;
-}
-.action{
-    display: flex;
-    height: 20vh;
-    justify-content: center;
-    width: 100%;
-}
-.action .actionEl{
-    height: 10vh;
-    width: 40rem;
-    margin: 1rem;
-    text-align: center;
-}
-.action .actionEl div{
-    height: 13vh;
-    width: 7vw;
-    margin: auto;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    border: 3px solid #912978;
-}
-.action .actionEl img{
-    height: 10vh;
-    width: 5vw;
-    border-radius: 20%;
-    margin: 0.7rem;
+.maDiv img{    
+    padding: 1.5rem;
+    width: 40vw;
 }
 
-.action2{
-    display: flex;
-    height: 50vh;
-    justify-content: center;
-    width: 100%;
-}
-.action2 .actionEl2{
-    height: 44vh;
-    width: 24vw;
-    border: 3px solid #912978;
-    border-radius: 10px;
-    margin: 2rem;
-    padding: 2rem;
-    text-align: center;
-}
-.action2 .actionEl2 div{
-    height: 13vh;
-    width: 7vw;
-    margin: auto;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    border: 3px solid #912978;
-}
-.action2 .actionEl2 img{
-    height: 10vh;
-    width: 5vw;
-    border-radius: 20%;
-    margin: 0.7rem;
-}
-.menu h2{
-    margin: 0.8rem;
-    font-size: 1.7rem;
-}
-.menu h3{
-    text-align: center;
-    margin: 0.8rem;
-    font-size: 1.3rem;
-}
-.menu p{
-    line-height: 1.3;
-    font-size: 1.3rem;
-}
-.el2 img{
-    height: 85vh;
-    width: 100%;
-}
-.el2 span{  
-    background-color: #912978;
-    border-radius: 20px;
-    padding: 0.01px 0.5vw;
-}
-.el3 img{
-    height: 85vh;
-    width: 100%;
-}
-.el3 span{  
-    background-color: #912978;
-    border-radius: 20px;
-    padding: 0.01px 0.5vw;
-}
 .foot{
     height: 20vh;
     width: 100%;
