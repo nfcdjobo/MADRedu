@@ -17,7 +17,7 @@
                 <div class="ul-img"><img src="./../assets/images/users/logo.png" alt="Logo" class="logo" width="50" height="50"></div>
                 <ul class="ul-link">
                     <li class="li-link"><a href="#" class="links">Accueil</a></li>
-                    <li class="li-link"><a href="#" class="links">Forum</a></li>
+                    <li class="li-link"><a href="./forums.html" class="links">Forum</a></li>
                     <li class="li-link"><a href="#" class="links">Bibliothèque</a></li>
                     <li class="li-link"><a href="#" class="links">Outils</a></li>
                     <li class="li-link"><a href="#" class="links">A propos</a></li>
@@ -32,28 +32,31 @@
                     <h1>Forum</h1> 
                     <div class="link-contain">
                         <ul>
-                            <div class="link-newCht"><li><a href="#">Nouvelle discussion <div class="iconWrite"><ion-icon name="create-outline"></ion-icon></div></a></li></div>
-                            <div class="link-memb"><li><a href="#">Membres</a></li></div>
-                            <div class="link-allCht"><li><a href="#">Tous les discusions</a></li></div>
+                            <div class="link-newCht"><li><a href="./newChat.html">Nouvelle discussion <div class="iconWrite"><ion-icon name="create-outline"></ion-icon></div></a></li></div>
+                            <div class="link-memb"><li><a href="./membres.html">Membres</a></li></div>
+                            <div class="link-allCht"><li><a href="./forums.html">Tous les discusions</a></li></div>
                         </ul>
                     </div>   
                 </div>
                 <div class="m_modal">
                     <div class="newChatt">
                         <h5>Nouvelle discussion</h5>
+                        <div class="icon_delete"><a href="./forums.html"><ion-icon name="close-outline"></ion-icon></div></a>
                     </div>
                     <h4>Sujet</h4>
                     <form class="modal-grp">
-                        <input type="text" placeholder="Entrez votre sujet">
-                        <input type="file" name="file" id="parcourir">
+                        <input type="text" class="modal_btn" placeholder="Entrez votre sujet">
+                        <input type="file"  class="modal_file"  name="file" id="">
+                      <div class="btn_subModal">
                         <button type="submit">Annuler</button>
                         <button type="submit">Poster</button>
+                      </div>
                     </form>
                 </div>
                 <div class="rightSide">
                     <div class="header-forum">
                         <form class="boxForm">
-                            <input type="text" class="inputText" id="recherche" placeholder="recherche ">
+                            <input type="search" class="inputText" id="recherche" placeholder="recherche ">
                             <button type="submit" class="btnSubmit">recherche</button>
                         </form> 
                      </div>
