@@ -1,22 +1,28 @@
-*, ::after, ::before{
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
 }
-
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-body header{
+header{
     background-color: #912978;
+    height: 10vh;
+    padding: 0.3rem;
+}
+header img{
+    height: 8vh;
+    width: 5vw;
+    margin: 0.5rem;
+}
+.navbar img{
+    height: 60px;
+    width: 60px;
+    top: -10px;
+    border-radius: 50px;
     position: relative;
+<<<<<<< HEAD
     width: 100%;
     height: 4.2rem;
     box-sizing: content-box;
@@ -24,69 +30,58 @@ body header{
 =======
     
 >>>>>>> bb252b6329ab5ad3621e3b821e2fd0135fbec2ff
+=======
+>>>>>>> neko
 }
-
-.nav-link{
-    padding: 1.2rem;
+.navbar{
+    height: 70px;
+    width: 40vw;
+    float: right;
+    padding: 0.3rem;
+    margin: 0 auto;
 }
-
-.ul-link{
-    margin-top: -2.5rem;
+.dropdownmenu {
     display: flex;
-    list-style: none;
-    vertical-align: middle;
-    padding-left: .5rem;
-    justify-content:flex-end;
+    margin: 1rem 0 0;
+    justify-content: space-between;
 }
-
-.logo{
-    width: 2.5rem;
-    height: 2.5rem;
+.dropdownmenu ul {
+    display: none;
 }
-
-.ul-link .li-link{
-    margin: -.4rem .5%;
-    padding: .3rem;
+.dropdownmenu,
+.dropdownmenu ul {
+    list-style-type: none;
+    padding: 0px;
 }
-
-li a{
-    color: white;
-    font-size: 15px;
+a {
+    display: block;
+    width: 7vw;
+    height: 4vh;
+    line-height: 35px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
 }
-
-li.active{
-    font-weight: bold;
+.dropdownmenu li {
+    font-size: 1.3rem;
+    position: relative;
 }
-
-li a:hover{
-    outline: none;
-    color: orange;
-    text-decoration : underline rgb(255, 255, 255);
+.dropdownmenu li a:hover{
+    color: #342647;
 }
-
-.menu-all{
-    border: .12rem solid rgb(233, 232, 232, 0.5);
-    box-shadow: .1px 0px .5px 1px rgb(171, 171, 171);
-    visibility: visible;
-    background-color: white;
+.dropdownmenu li:hover ul {
+    display: block;
     position: absolute;
-    width: 12rem;
-    margin: .2rem 1rem;
-    top: 4.4rem;
-    visibility: hidden;
+    top: 41px;
+    left: 0px;
+    border: 1px solid #000;
+    z-index: 100;
 }
-
-.trouver{
-    visibility:visible;
+.sous li a{
+    color: #000;
+    background-color: #FFF;
 }
-
-.menu-div{
-    padding: .2rem 1rem;
-}
-
-.link-div .menu-div {
-    width: 100%;
-}
+<<<<<<< HEAD
 
 .link-div .menu-div:hover {
     outline: none;
@@ -133,3 +128,9 @@ li a:hover{
 =======
 >>>>>>> 65d40098978dab4ba5548ad99cd1521358cd3222
 >>>>>>> bb252b6329ab5ad3621e3b821e2fd0135fbec2ff
+=======
+.sous li a:hover{
+    background-color: #912978;
+    color: #FFF;
+}
+>>>>>>> neko
