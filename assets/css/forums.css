@@ -1,6 +1,5 @@
 /*  style global*/
 .forum {
-<<<<<<< HEAD
   position: relative;
   width: 1396px;
   max-width: 100%;
@@ -10,15 +9,6 @@
 /* navbar style forum */
 
 .forum .nav-forum {
-=======
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 1440px;
-}
-/* navbar style forum */
-
-.nav-forum {
->>>>>>> ba93f93bbc3c9f77ea4a77b46c197cad0402860b
   width: 90%;
   height: 12vh;
   margin: 0 auto;
@@ -53,7 +43,6 @@
 }
 
 /* left style forum */
-<<<<<<< HEAD
 
 .forum .sidebar-forum {
   position: relative;
@@ -64,15 +53,6 @@
   margin-top: -3%;
   box-shadow: 2px 1px #0c0c0c;
   position: fixed; */
-=======
-.sidebar-forum {
-  width: 17%;
-  height: 100vh;
-  margin-top: -3%;
-  background-color: #531f47;
-  box-shadow: 2px 1px #0c0c0c;
-  /* position: fixed; */
->>>>>>> ba93f93bbc3c9f77ea4a77b46c197cad0402860b
 }
 
 
@@ -146,7 +126,6 @@ color: #fff;
 }
 
 /* center style forum */
-<<<<<<< HEAD
 .forum .main-forum {
   position: relative;
   flex: 70%;
@@ -167,16 +146,6 @@ color: #fff;
   width: 100%;
   height: 100%;
 }
-=======
-.main-forum {
-  width: 90%;
-  margin: 0 auto;
-  margin-left: 200px;
-  background-color: aliceblue;
-  position: relative;
-  
-}
->>>>>>> ba93f93bbc3c9f77ea4a77b46c197cad0402860b
 /* box write message */
 .box-msger{
   width: 90%;
@@ -193,7 +162,6 @@ color: #fff;
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .btn-saisi{
   width: 50%;
   height: 40px;
@@ -203,8 +171,6 @@ color: #fff;
 .box-msger .btn-img{
  margin-top: 4px;
 }
-=======
->>>>>>> ba93f93bbc3c9f77ea4a77b46c197cad0402860b
 
 /* responsive design */
 @media screen and (max-width: 1499px) {
