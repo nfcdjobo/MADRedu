@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>forum</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="./../assets/images/users/logonc.png">
@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="./../assets/css/profile.css">
         <link rel="stylesheet" href="./../assets/css/footer.css">
         <link rel="stylesheet" href="./../assets/css/forums.css">
-        <link rel="stylesheet" href="./../assets/css/newChat.css">
     </head>
     <body>
         <header>
@@ -30,8 +29,7 @@
             <ul class="ul-link">
                 <li class="li-link"><a href="../index2.html" id="index" class="links">Accueil</a></li>
                 <li class="li-link"><a href="forums.html" id="forums" class="links">Forums</a></li>
-                <li class="li-link"><a href="bibliotheques.html" id="bibliotheques" class="links">Bibliothèque</a>
-                </li>
+                <li class="li-link"><a href="bibliotheques.html" id="bibliotheques" class="links">Bibliothèque</a> </li>
                 <li class="li-link"><a href="outils.html" id="outils" class="links">Outils</a></li>
                 <li class="li-link"><a href="Apropos.html" id="Apropos" class="links">A propos</a></li>
                 <li class="li-link" id="menu-all"><a href="#" id="#" class="links"><img class="avatar" src="../assets/images/users/avatar.png" alt="Avatar"></a></li>
@@ -58,12 +56,36 @@
                     <h1>Forum</h1> 
                     <div class="link-contain">
                         <ul>
-                            <div class="link-newCht"><li><a href="./newChat.html">Nouvelle discussion <div class="iconWrite"><ion-icon name="create-outline"></ion-icon></div></a></li></div>
+                            <div class="link-newCht"><li class="newCh"><a href="#newChat">Nouvelle discussion <div class="iconWrite"><ion-icon name="create-outline"></ion-icon></div></a></li></div>
                             <div class="link-memb"><li><a href="./membres.html">Membres</a></li></div>
                             <div class="link-allCht"><li><a href="./forums.html">Tous les discusions</a></li></div>
                         </ul>
                     </div>   
                 </div>
+                <!-- debut creaction de modale -->
+                <div class="big-modal" id="newChat">
+                    <div class="m_modal">
+                        <div class="newChatt">
+                            <h5>Nouvelle discussion</h5>
+                            <div class="icon_delete"><ion-icon name="close-outline"></ion-icon></div>
+                        </div>
+                        <h4>Sujet</h4>
+                        <form class="modal-grp">
+                            <input type="text" class="modal_btn" placeholder="Entrez votre sujet">
+                            <input type="file"  class="modal_file"  name="file" id="">
+                          <div class="btn_subModal">
+                            <button type="submit">Annuler</button>
+                            <button type="submit">Poster</button>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- <script>
+                   
+                    
+                </script> -->
+                
+                 <!-- fin creaction de modale -->
                 <div class="rightSide">
                     <div class="header-forum">
                         <form class="boxForm">
@@ -112,36 +134,17 @@
                      </div>
                      <div class="enter-forum">
                         <form class="boxEnter">
-                            <input type="text" class="InputText" id="recherche" placeholder="saisie ">
-                            <img src="../assets/images/forum/send.png" width="30px" alt="" >
+                            <div class="writen"><input type="text" class="InputText" id="recherche" placeholder="saisie "><img src="../assets/images/forum/send.png" width="30px" alt="" ></div>
+                            <div class="send"><img src="../assets/images/forum/send.png" width="30px" alt="" ></div>
                         </form> 
                     </div>  
                 </div>
                 </div>
             </div>
-        <!-- fin du forum -->
-        <footer class="footer-link">
-            <div class="footer-content">
-                <form action="" class="form-link">
-                    <input type="text" class="form-control" placeholder="Votre email">
-                    <input type="submit" class="form-control" value="Envoyer">
-                </form>
-            </div>
-            <hr>
-            <div class="footer-content" id="footer-content">
-                <div class="network-link">
-                    <span class="copy-rigth"></span>
-                    <span class="copy-rigth">
-                        <a href="" class="network"><img src="./../assets/images/users/facebook.svg" alt="facebook" class="red"></a>
-                        <a href="" class="network"><img src="./../assets/images/users/instagram.svg" alt="facebook" class="red"></a>
-                        <a href="" class="network"><img src="./../assets/images/users/twitter.svg" alt="facebook" class="red"></a>
-                        <a href="" class="network"><img src="./../assets/images/users/youtube.svg" alt="facebook" class="red"></a>
-                    </span>
-                </div>
-            </div>
-        </footer>
+        
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
     <script src="../assets/javascript/header.js"></script>
+    <script src="../assets/javascript/forums.js"></script>
 </html>
