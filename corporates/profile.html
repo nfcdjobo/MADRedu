@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="./../assets/images/users/logonc.png">
-        <link rel="stylesheet" href="./../assets/css/header.css">
+        
+        <link rel="stylesheet" href="./../assets/css/entete.css">
 
         <link rel="stylesheet" href="./../assets/css/profile.css">
 
@@ -13,23 +14,30 @@
     </head>
     <body>
         <header>
-            <img src="../assets/images/users/logo.png" alt="">
-            <div class="navbar">
-                <ul class="dropdownmenu">
-                    <li><a href="accueil.html" class="hover">Accueil</a></li>
-                    <li><a href="forums.html" class="hover">Forums</a></li>
-                    <li><a href="#" class="hover">Bibliothèque</a>
-                    <li><a href="Apropos.html" class="hover">A Propos</a></li>
-                    <li><a href="#" class="hover"><img src="../assets/images/users/avatar.png" alt=""></a>
-                        <ul class="sous">
-                          <li><a href="../corporates/profile.html">Profile</a></li>
-                          <li><a href="#">Notification</a></li>
-                          <hr style="border: 1px solid #912978;">
-                          <li><a href="html/connexion.html">Deconnexion</a></li>
-                        </ul>
-                      </li>
-                  </ul>
-            </div>
+            <nav class="nav-link">
+                <a href="accueil.html" class="ul-img"><img src="../assets/images/users/logo.png" alt="Logo" class="logo"></a>
+                <ul class="ul-link">
+                    <li class="li-link"><a href="accueil.html" id="index" class="links">Accueil</a></li>
+                    <li class="li-link"><a href="forums.html" id="forums" class="links">Forums</a></li>
+                    <li class="li-link"><a href="bibliotheques.html" id="bibliotheques" class="links">Bibliothèque</a>
+                    </li>
+                    <li class="li-link"><a href="Apropos.html" id="Apropos" class="links">A propos</a></li>
+                    <li class="li-link" id="menu-all"><a href="#" id="#" class="links"><img class="avatar"
+                                src="../assets/images/users/avatar.png" alt="Avatar"></a></li>
+                    <div class="menu-all" id="menu-all-1" ref="all-wait">
+                        <a href="profile.html" id="profile" class="link-div">
+                            <div class="menu-div">Profile</div>
+                        </a>
+                        <a href="forums.html" class="link-div">
+                            <div class="menu-div">Notification<code style="color: red;"><sup>+2</sup></code></div>
+                        </a>
+                        <hr>
+                        <a href="connexion.html" id="" class="link-div">
+                            <div class="menu-div">Déconnexion</div>
+                        </a>
+                    </div>
+                </ul>
+            </nav>
         </header>
 
         <div class="container">
