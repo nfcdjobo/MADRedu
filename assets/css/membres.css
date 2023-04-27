@@ -3,11 +3,99 @@
 }
 
 .header-forum .number{
-    width: 6%;
-    height: 40px;
+    position: relative;
+    width: 4%;
+    height: 30px;
     border-radius: 100%;
-    background-color: beige;
+    background-color: #D9D9D9;
+    padding-top: 5px;
 }
 .number .sp_number{
-   justify-content: center;
+    position: relative;
+    margin-left: 10px;
 }
+.contain_header{
+    display:flex ;
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.contain_header h5{
+    color: #fff;
+    padding: 10px;
+}
+/* creaction de modale */
+.m_modal{
+    position: absolute;
+    width: 60%;
+    max-width: 90%; 
+    height: calc(40vh - 30px);
+    background: rgb(223, 218, 218);
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.06),3px 3px 5px 3px rgba(0,0,0,0.06);
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 3px solid #531f47;
+    z-index: 1000;
+   
+  }
+  
+  .m_modal h4{
+    font-size: 15px;
+    margin-top: 10px;
+    margin: 20px;
+  }
+  
+  .m_modal .newChatt{
+    width: 100%;
+    height: 50px;
+    background-color:#531f47;
+  }
+  
+  .newChatt h5{
+    padding: 20px;
+    color: #fff;
+  }
+  .newChatt .icon_delete{
+    font-size: 20px;
+    float: right;
+    margin-top: -40px;
+  
+  }
+  .newChatt .icon_delete a{
+    color: #fff;
+  }
+  
+  .modal-grp .modal_btn{
+    width: 80%;
+    height: 40px;
+    align-items: center;
+  }
+  .modal-grp .modal_file{
+    width: 80%;
+    height: 40px;
+  }
+  .btn_subModal{
+    position: relative;
+    width: 100%;
+    height: 40px;
+   margin-top: 10%;
+   padding: 4px;
+    border-top: 2px solid #531f47;
+  }
+  .btn_subModal button{
+    position: relative;
+    float:right;
+    width: 14%;
+    height: 40px;
+    margin-top: 5px;
+    margin: 6px;
+  }
+  .big-modal{
+    visibility: hidden;
+  }
+  
+  .show{
+    visibility: visible;
+  }
+  
