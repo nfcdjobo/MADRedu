@@ -67,20 +67,10 @@
                         </form>
                     </div>
                 </div>
-                <script>
-                    document.querySelector(".newCh").addEventListener("click", balancer);
-                    function balancer(event){
-                        const m_modal = document.querySelector(".big-modal");
-                        m_modal.classList.toggle("show");
-                    }
-
-                    document.querySelector(".icon_delete").addEventListener("click", close);
-                    function close(event){
-                        const m_modal = document.querySelector(".big-modal");
-                        m_modal.classList.remove("show");
-                    }
+                <!-- <script>
+                   
                     
-                </script>
+                </script> -->
                 
                  <!-- fin creaction de modale -->
                 <div class="rightSide">
@@ -131,8 +121,8 @@
                      </div>
                      <div class="enter-forum">
                         <form class="boxEnter">
-                            <input type="text" class="InputText" id="recherche" placeholder="saisie ">
-                            <img src="../assets/images/forum/send.png" width="30px" alt="" >
+                            <div class="writen"><input type="text" class="InputText" id="recherche" placeholder="saisie "><img src="../assets/images/forum/send.png" width="30px" alt="" ></div>
+                            <div class="send"><img src="../assets/images/forum/send.png" width="30px" alt="" ></div>
                         </form> 
                     </div>  
                 </div>
@@ -143,5 +133,5 @@
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
     <script src="../assets/javascript/header.js"></script>
-    
+    <script src="../assets/javascript/forums.js"></script>
 </html>
