@@ -4,34 +4,42 @@
     align-items: center;
     min-height: 100vh;
     background: #F3F0F0;
-
-}
-.container{
+  
+  }
+  .container{
     position: relative;
     width: 1200px;
     max-width: 100%;
     height: calc(100vh - 40px);
-    background: rgb(48, 9, 9);
     display: flex;
-}
-/* menu gauche */
-.container .leftSide{
+  }
+  /* menu gauche */
+  .container .leftSide{
     position: relative;
     flex: 30%;
     background:  #531f47;
     border-right: 1px solid rgba(0, 0, 0, 0.6);
-}
-.leftSide h1{
+  }
+
+  .number-memb{
+    width: 30px;
+    height: 30px;
+    background-color: #D9D9D9;
+    border-radius: 100px;
+    display: flex;
+  }
+
+  .leftSide h1{
     margin-top: 20px;
     text-align: center;
     color: #fff;
-}
-.link-contain ul{
+  }
+  .link-contain ul{
     margin-top: 30px;
     text-align: center;
     justify-content: center;
-}
-.link-contain .link-newCht{
+  }
+  .link-contain .link-newCht{
     width: 90%;
     height: 50px; 
     margin-top: 40px;
@@ -42,8 +50,8 @@
     margin-bottom: 20px;
     position: relative;
     box-shadow: 1px 0px 4px 2px #0000002a;
-}
-.link-newCht .iconWrite {
+  }
+  .link-newCht .iconWrite {
     position: relative;
     margin-top: -8px;
     margin-right: 8px;
@@ -53,42 +61,102 @@
   .link-contain .link-newCht:hover{
     border: 2px solid #a21b83;
   }
-
+  
   .link-contain .link-memb{
     padding-bottom: 30px;
   }
-
   .m_modal{
-    position: relative;
-    width: 150%;
-    /* height: 400px; */
-    max-width: 100%; 
-     height: calc(70vh - 40px);
+    position: absolute;
+    width: 60%;
+    max-width: 90%; 
+    height: calc(40vh - 30px);
     background: rgb(223, 218, 218);
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.06),2px 2px 5px 3px rgba(0,0,0,0.06);
-    display: none;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.06),3px 3px 5px 3px rgba(0,0,0,0.06);
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 3px solid #531f47;
+    z-index: 1;
+   
   }
-
-/* menu droit */
-.container .rightSide{
+  
+  .m_modal h4{
+    font-size: 15px;
+    margin-top: 10px;
+    margin: 20px;
+  }
+  
+  .m_modal .newChatt{
+    width: 100%;
+    height: 50px;
+    background-color:#531f47;
+  }
+  
+  .newChatt h5{
+    padding: 20px;
+    color: #fff;
+  }
+  .newChatt .icon_delete{
+    font-size: 20px;
+    float: right;
+    margin-top: -40px;
+  
+  }
+  .newChatt .icon_delete a{
+    color: #fff;
+  }
+  
+  .modal-grp .modal_btn{
+    width: 80%;
+    height: 40px;
+    margin-left: 20px;
+    align-items: center;
+  }
+  .modal-grp .modal_file{
+    width: 80%;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .icon_delete{
+    color: #fff;
+  }
+  
+  .btn_subModal{
+    position: relative;
+    width: 100%;
+    height: 40px;
+   margin-top: 0%;
+   padding: 4px;
+    border-top: 2px solid #531f47;
+  }
+  .btn_subModal button{
+    position: relative;
+    float:right;
+    width: 14%;
+    height: 40px;
+    margin-top: 2px;
+    margin: 6px;
+  }
+  
+  /* menu droit */
+  .container .rightSide{
     position: relative;
     flex: 70%;
     background-color: rgb(239, 236, 241);
    
-}
-.header-forum{
+  }
+  .header-forum{
     position: relative;
     width: 100%;
     height: 80px;
     background: #531f47;
-}
-.boxForm{
+  }
+  .boxForm{
     position: relative;
     text-align: center;
     padding-top: 20px;
-}
-
-.container .rightSide::before{
+  }
+  
+  .container .rightSide::before{
     content: '';
     position: absolute;
     top: 0;
@@ -96,69 +164,98 @@
     width: 100%;
     height: 100%;
     background-color: #D9D9D9;
-}
-.boxForm  .inputText{
+  }
+  .boxForm  .inputText{
     width: 80%;
-    height: 40px;
-}
-
-.boxForm .btnSubmit{
+    height: 2.5rem;
+  }
+  
+  .boxForm .btnSubmit{
     width: 10%;
     height: 40px;
     padding-right: 5px; 
-}
-.chatBox{
+  }
+  .chatBox{
    position: relative;
    width: 100%;
    height: calc(100% - 120px);
    padding: 50px;
    overflow-y: auto;
    cursor: pointer;
-}
-
-.my_mesges{
+  }
+  
+  .my_mesges{
    position: relative; 
    display: flex;
    width: 100%;
    margin: 5px 0;
-}
-
-.my_mesges img{ 
+  }
+  
+  .my_mesges img{ 
    border-radius: 100%;
    height: 70px;
-}
-.bloc_mesg{
+  }
+  
+  .bloc_mesg{
     position: relative;
     width: 100%;
     height: 8Opx;
-    background-color: rgb(62, 202, 106);
+    background-color: rgb(193, 199, 195);
     box-shadow: 0 1px 1px O rgba(0, 0, 0, 0.06),
     0 2px 5px 0 rgba(0, 0, 0, 0.06);
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
-}
-/* box write message */
-.enter-forum{
+    
+  }
+  /* box write message */
+  .enter-forum{
     position: relative;
     width: 100%;
-    height: 80px;
+    height: 60px;
+    margin-top: -50px;
    background-color: #342647;     
-}
-
+  }
+  
   .enter-forum .InputText{
     text-align: center;
     justify-content: center;
+    height: 2rem;
   }
   
   .InputText{
+    position: relative;
     width: 80%;
     height: 40px;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
     align-items: center;
     justify-content: center;
   }
-
-  .box-msger .btn-img{
-   margin-top: 4px;
+  
+  
+  .box-msger .send img{
+    float: right;
   }
+  .writen img{
+    padding-top: 5px;
+  }
+  
+  .big-modal{
+    visibility: hidden;
+  }
+  
+  .show{
+    visibility: visible;
+  }
+  
+  ion-icon[name=paper-plane-outline]{
+    outline: none;
+    color: white;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    
+  }
+  

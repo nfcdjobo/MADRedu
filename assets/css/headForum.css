@@ -75,6 +75,7 @@ li a:hover{
 
 .trouver{
     visibility:visible;
+    z-index: 1;
 }
 
 .menu-div{

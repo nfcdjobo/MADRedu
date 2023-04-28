@@ -5,34 +5,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="./../assets/images/users/logonc.png">
-        <link rel="stylesheet" href="./../assets/css/header.css">
-        <link rel="stylesheet" href="./../assets/css/profile.css">
+        <link rel="stylesheet" href="./../assets/css/headForum.css">
+        <link rel="stylesheet" href="./../assets/css/styleForum.css">
         <link rel="stylesheet" href="./../assets/css/footer.css">
-        <link rel="stylesheet" href="./../assets/css/forums.css">
-        <link rel="stylesheet" href="./../assets/css/membres.css">
+        
     </head>
     <body>
         <header>
-            <img src="../assets/images/users/logo.png" alt="">
-            <div class="navbar">
-                <ul class="dropdownmenu">
-                    <li><a href="accueil.html" class="hover">Accueil</a></li>
-                    <li><a href="#" class="hover">Forums</a></li>
-                    <li><a href="bibliotheques.html" class="hover">Bibliothèque</a>
-                    <li><a href="Apropos.html" class="hover">A Propos</a></li>
-                    <li><a href="#" class="hover"><img src="../assets/images/users/avatar.png" alt=""></a>
-                        <ul class="sous">
-                          <li><a href="../corporates/profile.html">Profile</a></li>
-                          <li><a href="#">Notification</a></li>
-                          <hr style="border: 1px solid #912978;">
-                          <li><a href="html/connexion.html">Deconnexion</a></li>
-                        </ul>
-                      </li>
-                  </ul>
-            </div>
+            <nav class="nav-link">
+                <a href="accueil.html" class="ul-img"><img src="../assets/images/users/logo.png" alt="Logo" class="logo"></a>
+                <ul class="ul-link">
+                    <li class="li-link"><a href="accueil.html" id="index" class="links">Accueil</a></li>
+                    <li class="li-link"><a href="forums.html" id="forums" class="links">Forums</a></li>
+                    <li class="li-link"><a href="bibliotheques.html" id="bibliotheques" class="links">Bibliothèque</a>
+                    </li>
+                    <li class="li-link"><a href="Apropos.html" id="Apropos" class="links">A propos</a></li>
+                    <li class="li-link" id="menu-all"><a href="#" id="#" class="links"><img class="avatar"
+                                src="../assets/images/users/avatar.png" alt="Avatar"></a></li>
+                    <div class="menu-all" id="menu-all-1" ref="all-wait">
+                        <a href="profile.html" id="profile" class="link-div">
+                            <div class="menu-div">Profile</div>
+                        </a>
+                        <a href="forums.html" class="link-div">
+                            <div class="menu-div">Notification<code style="color: red;"><sup>+2</sup></code></div>
+                        </a>
+                        <hr>
+                        <a href="connexion.html" id="" class="link-div">
+                            <div class="menu-div">Déconnexion</div>
+                        </a>
+                    </div>
+                </ul>
+            </nav>
         </header>
         <!-- debut du forum -->
-         <div class="body-forum">
+        <div class="body-forum">
             <div class="container">
                 <div class="leftSide">
                     <h1>Forum</h1> 
@@ -44,8 +50,8 @@
                         </ul>
                     </div>   
                 </div>
-                 <!-- debut creaction de modale -->
-                 <div class="big-modal" id="newChat">
+                <!-- debut creaction de modale -->
+                <div class="big-modal" id="newChat">
                     <div class="m_modal">
                         <div class="newChatt">
                             <h5>Nouvelle discussion</h5>
@@ -70,18 +76,68 @@
                  <!-- fin creaction de modale -->
                 <div class="rightSide">
                     <div class="header-forum">
-                        <div class="contain_header">
-                            <div class="number">
-                                <span class="sp_number">0</span>
-                            </div>
-                            <h5>Membres</h5> 
+                        <div class="number-memb">  
+                            <span>0</span>
                         </div>
-                    </div>  
+                     <h4>Membres</h4>
+                     </div>
+                     <!-- discussion -->
+                     <h2>Discusion</h2>
+                     <div class="chatBox">
+                        <div class="my_mesges">
+                            <img src="./../assets/images/forum/images.jpeg" width="70px" alt="">
+                            <div class="bloc_mesg"> 
+                               <h4>Kathryn Murphy</h4>
+                               <p>Bonjour  chers camarades, mon sujet du jour, comment s’organiser à la maison.</p>
+                            </div>
+                        </div>
+                        <div class="my_mesges">
+                            <img src="./../assets/images/forum/images.jpeg" width="70px" alt="">
+                            <div class="bloc_mesg"> 
+                               <h4>Kathryn Murphy</h4>
+                               <p>Bonjour  chers camarades, mon sujet du jour, comment s’organiser à la maison.</p>
+                            </div>
+                        </div>
+                        <div class="my_mesges">
+                            <img src="./../assets/images/forum/images.jpeg" width="70px" alt="">
+                            <div class="bloc_mesg"> 
+                               <h4>Kathryn Murphy</h4>
+                               <p>Bonjour  chers camarades, mon sujet du jour, comment s’organiser à la maison.</p>
+                            </div>
+                        </div>
+                        <div class="my_mesges">
+                            <img src="./../assets/images/forum/images.jpeg" width="70px" alt="">
+                            <div class="bloc_mesg"> 
+                               <h4>Kathryn Murphy</h4>
+                               <p>Bonjour  chers camarades, mon sujet du jour, comment s’organiser à la maison.</p>
+                            </div>
+                        </div>
+                        <div class="my_mesges">
+                            <img src="./../assets/images/forum/images.jpeg" width="70px" alt="">
+                            <div class="bloc_mesg"> 
+                               <h4>Kathryn Murphy</h4>
+                               <p>Bonjour  chers camarades, mon sujet du jour, comment s’organiser à la maison.</p>
+                            </div>
+                        </div>
+                     </div>
+                    
+                </div>
                 </div>
             </div>
-        </div>
+            <footer class="footer-link">
+                <div class="footer-content">
+                    
+                </div>
+                <hr>
+                <div class="footer-content" id="footer-content">
+                    <div class="network-link">
+                         <span class="copy-rigth">© Network Corite Copyright 2023, tous droit reservé</span>
+                    </div>
+                </div>
+            </footer>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
-    <script src="../assets/javascript/membres.js"></script>
+    <script src="../assets/javascript/header.js"></script>
+    <script src="../assets/javascript/forums.js"></script>
 </html>
